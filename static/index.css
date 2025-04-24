@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.container {
+    width: 360px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 4vh;
+}
+
+.mechielsenimage {
+    position: absolute;
+    max-width: 100px;
+    margin-bottom: 90vh;
+    margin-left: -28vh;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+    margin: 1vh 0;
+}
+
+.h21, .h22 {
+    font-size: 1.2rem;
+    margin: 0.5vh 0;
+}
+
+.image1 a {
+    text-decoration: none;
+    color: #24A968;
+    font-size: 1rem;
+    margin-top: 2vh;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-toggle {
+    margin-bottom: 90%;
+    width: 250px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: lightslategrey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 17%;
+    left: 0;
+    background-color: white;
+    min-width: 250px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 6px;
+    padding: 10px 0;
+  }
+
+  .dropdown-menu a {
+    color: #333;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-menu a:hover {
+    background-color: #f0f0f0;
+    color: #24A968;
+  }
+
+  .dropdown:focus-within .dropdown-menu {
+    display: block;
+  }

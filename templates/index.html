@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+        <title> Mechielsen Oldehove </title>
+</head>
+<body>
+    <div class="container">
+        <div class="mechielsenimage">
+            <img src="{{ url_for('static', filename='images/mechielsen.png') }}" alt="Mechielsen Oldehove" width="150" height="auto">
+        </div>
+        <div class="title">
+            <h1> Welkom! </h1>
+            <h2 class="h21"> Kies hieronder de machine </h2>
+            <h2 class="h22"> waarmee u werkt: </h2>
+        </div>
+        <div class="dropdown">
+            <button class="dropdown-toggle"> ˅ Machine Opties</button>
+            <div class="dropdown-menu">
+              <a href="{{ url_for('volvo')}}">Volvo EWR150E</a>
+              <a href="#">Machine 2</a>
+              <a href="#">Machine 3</a>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
